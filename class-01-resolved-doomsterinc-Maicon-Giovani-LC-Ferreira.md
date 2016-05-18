@@ -14,8 +14,8 @@ $ mongoimport --db be-mean --collection restaurantes --drop --file restaurantes.
 ## Contando os restaurantes
 
 ```
-    doom(mongod-3.2.0) be-mean-instagram> db.restaurantes.find({}).count()
-    25359
+doom(mongod-3.2.0) be-mean-instagram> db.restaurantes.find({}).count()
+25359
 
 ```
 
